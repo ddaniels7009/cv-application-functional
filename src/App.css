@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  display: flex;
+
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  width: 1000px;
+  height: 800px;
 }
 
 form{
@@ -19,5 +28,22 @@ label {
 button {
   width: 120px;
   height: 20px;
+}
+#left{
+  height: 100%;
+  width: 50%;
+  background-color:darkslategray;
+}
+#right{
+  height: 100%;
+  width: 50%;
+  background-color:darkseagreen;
+  
+}
+
+#cv{
+  height: 100px;
+  width: 100px;
+  background-color: bisque;
 }
 

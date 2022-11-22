@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from "react";
 import Education from './components/education';
+import Educations from './components/educations';
 
 const App = () => {
   const [saved, setSaved] = useState(true);
@@ -16,7 +17,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <Education saved={saved} setSaved={setSaved}></Education>
+
+      <div>
+        <Education saved={true} setSaved={saveHere}></Education>
+      </div>
+
     </div>
   );
 }
