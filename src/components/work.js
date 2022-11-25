@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import '../App.css';
 
-const Educations = (props) => {
+const Work = (props) => {
 console.log(props)
 
     return (
@@ -22,4 +22,4 @@ console.log(props)
 
 }
 
-export default Educations;
+export default Work;
