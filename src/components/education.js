@@ -51,7 +51,7 @@ const Education = (props) => {
                                 <p >{item.value.major}</p>
                                 <button onClick={() => {
                                     setEduList(currentEduList => currentEduList.filter(x => x.id !== item.id))
-                                }}></button>
+                                }}>Remove</button>
                             </div>
 
                         ))}
