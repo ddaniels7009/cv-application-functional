@@ -47,6 +47,8 @@ button {
   min-height: 100px;
   width: 50%;
   background-color:darkslategray;
+  display: flex;
+  justify-content: center;
 }
 #right{
   min-height: 100px;
